@@ -1,76 +1,153 @@
 export const userInputs = [
 	{
-		id: 1,
+		id: 'username',
 		label: 'Username',
 		type: 'text',
-		placeholder: 'john_doe',
+		placeholder: 'john Doe',
 	},
 	{
-		id: 2,
-		label: 'Name and surname',
-		type: 'text',
-		placeholder: 'John Doe',
-	},
-	{
-		id: 3,
+		id: 'email',
 		label: 'Email',
-		type: 'mail',
-		placeholder: 'john_doe@gmail.com',
+		type: 'email',
+		placeholder: 'John@email.com',
 	},
 	{
-		id: 4,
+		id: 'phone',
 		label: 'Phone',
 		type: 'text',
-		placeholder: '+1 234 567 89',
+		placeholder: '+90 555 555 55 55',
 	},
 	{
-		id: 5,
+		id: 'password',
 		label: 'Password',
 		type: 'password',
 	},
 	{
-		id: 6,
-		label: 'Address',
-		type: 'text',
-		placeholder: 'Elton St. 216 NewYork',
-	},
-	{
-		id: 7,
+		id: 'country',
 		label: 'Country',
 		type: 'text',
-		placeholder: 'USA',
+		placeholder: 'Turkey',
+	},
+	{
+		id: 'city',
+		label: 'City',
+		type: 'text',
+		placeholder: 'Istabul',
 	},
 ];
+//product inputs
+// export const productInputs = [
+// 	{
+// 		id: 'username',
+// 		label: 'Username',
+// 		type: 'text',
+// 		placeholder: 'john_doe',
+// 	},
+// 	{
+// 		id: 'email',
+// 		label: 'Email',
+// 		type: 'email',
+// 		placeholder: 'John@email.com',
+// 	},
+// 	{
+// 		id: 'phone',
+// 		label: 'Phone',
+// 		type: 'text',
+// 		placeholder: 'john Doe',
+// 	},
+// 	{
+// 		id: 'password',
+// 		label: 'Password',
+// 		type: 'password',
+// 	},
+// 	{
+// 		id: 'country',
+// 		label: 'Country',
+// 		type: 'text',
+// 		placeholder: 'Turkey',
+// 	},
+// 	{
+// 		id: 'city',
+// 		label: 'City',
+// 		type: 'text',
+// 		placeholder: 'Istabul',
+// 	},
+// ];
 
-export const productInputs = [
+export const hotelInputs = [
 	{
-		id: 1,
+		id: 'name',
+		label: 'Name',
+		type: 'text',
+		placeholder: 'My hotel',
+	},
+	{
+		id: 'type',
+		label: 'Type',
+		type: 'text',
+		placeholder: 'hotel',
+	},
+	{
+		id: 'city',
+		label: 'City',
+		type: 'text',
+		placeholder: 'Ankara',
+	},
+	{
+		id: 'address',
+		label: 'Address',
+		type: 'text',
+		placeholder: 'Kuyumcukent 4M Bahçelievler',
+	},
+	{
+		id: 'distance',
+		label: 'Distance from the sea',
+		type: 'text',
+		placeholder: '500',
+	},
+	{
+		id: 'title',
 		label: 'Title',
 		type: 'text',
-		placeholder: 'Apple Macbook Pro',
+		placeholder: 'The best Hotel',
 	},
 	{
-		id: 2,
+		id: 'desc',
 		label: 'Description',
 		type: 'text',
-		placeholder: 'Description',
+		placeholder:
+			'Lorem ipsum dolor, sit amet consectetur adipisicing elit. Officiis placeat esse natus accusantium tempore. Consequatur.',
 	},
 	{
-		id: 3,
-		label: 'Category',
-		type: 'text',
-		placeholder: 'Computers',
-	},
-	{
-		id: 4,
+		id: 'cheapestPrice',
 		label: 'Price',
 		type: 'text',
-		placeholder: '100',
+		placeholder: '150',
+	},
+];
+export const roomInputs = [
+	{
+		id: "title",
+		label: 'Title',
+		type: 'text',
+		placeholder: '2 bed room',
 	},
 	{
-		id: 5,
-		label: 'Stock',
+		id: "desc",
+		label: 'Description',
 		type: 'text',
-		placeholder: 'in stock',
+		placeholder: 'King size bed, 1 bathroom',
+	},
+	{
+		id: "price",
+		label: 'Price',
+		type: 'number',
+		placeholder: '150',
+	},
+	{
+		id: "maxPeople",
+		label: 'Max People',
+		type: 'number',
+		placeholder: '2',
 	},
 ];
