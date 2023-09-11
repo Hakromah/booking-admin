@@ -36,43 +36,43 @@ export const userInputs = [
 	},
 ];
 //product inputs
-// export const productInputs = [
-// 	{
-// 		id: 'username',
-// 		label: 'Username',
-// 		type: 'text',
-// 		placeholder: 'john_doe',
-// 	},
-// 	{
-// 		id: 'email',
-// 		label: 'Email',
-// 		type: 'email',
-// 		placeholder: 'John@email.com',
-// 	},
-// 	{
-// 		id: 'phone',
-// 		label: 'Phone',
-// 		type: 'text',
-// 		placeholder: 'john Doe',
-// 	},
-// 	{
-// 		id: 'password',
-// 		label: 'Password',
-// 		type: 'password',
-// 	},
-// 	{
-// 		id: 'country',
-// 		label: 'Country',
-// 		type: 'text',
-// 		placeholder: 'Turkey',
-// 	},
-// 	{
-// 		id: 'city',
-// 		label: 'City',
-// 		type: 'text',
-// 		placeholder: 'Istabul',
-// 	},
-// ];
+export const productInputs = [
+	{
+		id: 'username',
+		label: 'Username',
+		type: 'text',
+		placeholder: 'john_doe',
+	},
+	{
+		id: 'email',
+		label: 'Email',
+		type: 'email',
+		placeholder: 'John@email.com',
+	},
+	{
+		id: 'phone',
+		label: 'Phone',
+		type: 'text',
+		placeholder: 'john Doe',
+	},
+	{
+		id: 'password',
+		label: 'Password',
+		type: 'password',
+	},
+	{
+		id: 'country',
+		label: 'Country',
+		type: 'text',
+		placeholder: 'Turkey',
+	},
+	{
+		id: 'city',
+		label: 'City',
+		type: 'text',
+		placeholder: 'Istabul',
+	},
+];
 
 export const hotelInputs = [
 	{

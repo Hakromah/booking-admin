@@ -5,7 +5,12 @@ import DriveFolderUploadOutlinedIcon from '@mui/icons-material/DriveFolderUpload
 import { useState } from 'react';
 
 const NewHotel = ({ inputs, title }) => {
-	const [file, setFile] = useState('');
+	const [files, setFiles] = useState('');
+	const [info, setInfo] = useState({});
+
+	const handleChange = (e) => {
+		setInfo((prev) => ({ ...prev, [e.target.id]: e.target.value }));
+	};
 
 	return (
 		<div className="new">
@@ -19,8 +24,8 @@ const NewHotel = ({ inputs, title }) => {
 					<div className="left">
 						<img
 							src={
-								file
-									? URL.createObjectURL(file)
+								files
+									? URL.createObjectURL(files[0])
 									: 'https://icon-library.com/images/no-image-icon/no-image-icon-0.jpg'
 							}
 							alt=""
@@ -36,7 +41,8 @@ const NewHotel = ({ inputs, title }) => {
 								<input
 									type="file"
 									id="file"
-									onChange={(e) => setFile(e.target.files[0])}
+									multiple
+									onChange={(e) => setFiles(e.target.files)}
 									style={{ display: 'none' }}
 								/>
 							</div>
@@ -45,6 +51,8 @@ const NewHotel = ({ inputs, title }) => {
 								<div className="formInput" key={input.id}>
 									<label>{input.label}</label>
 									<input
+										id={input.id}
+										onChange={handleChange}
 										type={input.type}
 										placeholder={input.placeholder}
 									/>

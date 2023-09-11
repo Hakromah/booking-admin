@@ -1,5 +1,5 @@
 export const userColumns = [
-	{ field: '_id', headerName: 'ID', width: 70 },
+	{ field: '_id', headerName: 'ID', width: 350 },
 	{
 		field: 'user',
 		headerName: 'User',
@@ -29,44 +29,44 @@ export const userColumns = [
 	{
 		field: 'country',
 		headerName: 'Country',
-		width: 100,
+		width: 150,
 	},
 	{
 		field: 'city',
 		headerName: 'City',
-		width: 100,
+		width: 130,
 	},
 	{
 		field: 'phone',
 		headerName: 'Phone',
-		width: 100,
+		width: 150,
 	},
 ];
 export const hotelColumns = [
-	{ field: '_id', headerName: 'ID', width: 200 },
+	{ field: '_id', headerName: 'ID', width: 300 },
 	{
 		field: 'name',
 		headerName: 'Name',
-		width: 150,
+		width: 250,
 	},
 	{
 		field: 'type',
 		headerName: 'Type',
-		width: 100,
+		width: 120,
 	},
 	{
 		field: 'title',
 		headerName: 'Title',
-		width: 230,
+		width: 300,
 	},
 	{
 		field: 'city',
 		headerName: 'City',
-		width: 100,
+		width: 130,
 	},
 ];
 export const roomColumns = [
-	{ field: '_id', headerName: 'ID', width: 70 },
+	{ field: '_id', headerName: 'ID', width: 250 },
 	{
 		field: 'title',
 		headerName: 'Title',
